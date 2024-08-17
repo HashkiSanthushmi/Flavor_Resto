@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Complete Responsive Resturant Website Design Tutorial</title>
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+<!-- Font Awesome CDN link -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<!-- Custom CSS file link -->
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!-- Header section start -->
+<header>
+   <a href="#" class="logo"><i class="fas fa-utensils"></i>Flavor Resto.</a>
+   
+   <nav class="navbar">
+       <a href="index.html">home</a>
+       <a href="dishes.html">dishes</a>
+       <a href="menu.html">menu</a>
+	   <a href="about.html">about</a>
+       <a class="active" href="review.html">review</a>
+	   
+   </nav>
+   <div class="icons">
+       <i class="fas fa-bars" id="menu-bars"></i>
+       <i class="fas fa-search" id="search-icon"></i>
+       <a href="#" class="fas fa-heart"></a>
+       <a href="#" class="fas fa-shopping-cart"></a>
+   </div>
+</header>
+<!-- Header section end -->
+
+<section class="home" id="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <div class="img">
+                    <img src="images/review cover.jpg" alt="review cover" width="1000" height="600">
+                </div>
+            </div>
+            
+           
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<!-- Home section end -->
+
+<!-- review section starts -->
+<section class="review" id="review">
+    <h3 class="sub-heading">Customer's Review</h3>
+    <h3 class="heading">What They Say</h3>
+    
+        <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/Olivia Williams.png" alt="Review by Olivia Williams" width="95" height="95">
+                    <div class="user-info">
+                        <h3>Olivia Williams</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>"Exceptional dining experience with mouth-watering dishes. The spicy noodles are a must-try! 
+				The staff's hospitality made our visit memorable. Highly recommend this restaurant to everyone."</p>
+            </div>
+            
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/Sophia Brown.jpeg" alt="Review by Sophia Brown" width="95" height="95">
+                    <div class="user-info">
+                        <h3>Sophia Brown</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>"Wonderful atmosphere and amazing food. The chicken curry was flavorful and cooked to perfection.
+				Great place for family dinners. We’ll definitely be returning soon."</p>
+            </div>
+            
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/Liam Carter.jpeg" alt="Review by Liam Carter" width="95" height="95">
+                    <div class="user-info">
+                        <h3>Liam Carter</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>"Incredible culinary experience! The spicy noodles were my favorite. The staff was
+				attentive and the ambiance was perfect.A truly delightful dining experience.Highly recommended!"</p>
+            </div>
+            
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/Aiden Johnson.jpeg" alt="Review by Aiden Johnson" width="98" height="98">
+                    <div class="user-info">
+                        <h3>Aiden Johnson</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>"Delicious food, great service, and a cozy environment. The variety on the menu is impressive.
+				I can't wait to try more dishes. A must-visit restaurant!"</p>
+            </div>
+        
+            
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+
+
+<!-- review section ends -->
+
+<section class="feedback" id="feedback">
+
+    <h3 class="sub-heading">Submit now</h3>
+	<h3 class="heading">Feedback Form</h3>
+	
+	<form action="">
+	    <div class="inputBox">
+		    <div class="input">
+			    <span>your name</span>
+				<input type="text" placeholder="enter your name">
+			</div>
+			
+			<div class="input">
+			    <span>your Contact number</span>
+				<input type="number" placeholder="enter your number">
+			</div>
+		</div>
+		
+		
+		
+		<div class="inputBox">
+		    <div class="input">
+			    <span>ID number</span>
+				<input type="number" placeholder="enter your ID number">
+			</div>
+			
+			<div class="input">
+			    <span>date and time</span>
+				<input type="datetime-local">
+			</div>
+		</div>
+		
+		<div class="inputBox">
+		    <div class="input">
+			    <span>your address</span>
+				<textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+			</div>
+			
+			<div class="input">
+			    <span>your comment</span>
+				<textarea name="" placeholder="enter your comment" id="" cols="30" rows="10"></textarea>
+			</div>
+		</div>
+		
+		<input type="submit" value="Submit" class="btn">
+	</form>
+</section>	
+
+<!-- feedback section ends-->
+
+<!-- footer section starts -->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+	       <h3>location</h3>
+		   <a href="#">Maharagama</a>
+		   <a href="#">Matara</a>
+		   <a href="#">Gampaha</a>
+		   <a href="#">Kandy</a>
+		   <a href="#">Negombo</a>
+	    </div>
+		
+		<div class="box">
+	       <h3>quick links</h3>
+		   <a href="index.html">home</a>
+		   <a href="dishes.html">dishes</a>
+		   <a href="about.html">about</a>
+		   <a href="menu.html">menu</a>
+		   <a href="review.html">review</a>
+		   
+	    </div>
+		
+		<div class="box">
+	       <h3>contact info</h3>
+		   <a href="#">072-727-0523</a>
+		   <a href="#">078-224-3333</a>
+		   <a href="#">santhushmihashki@gmail.com</a>
+		   <a href="#">hashkisanthush0808@gmail.com</a>
+		   <a href="#">660,colombo-05,havelock roard</a>
+	    </div>
+		
+		<div class="box">
+	       <h3>follow us</h3>
+		   <a href="#">meta</a>
+		   <a href="#">twitter</a>
+		   <a href="#">instagram</a>
+		   <a href="#">linkedin</a>
+		  
+	    </div>
+    </div>
+	<div class="credit">copyright @ 2024 by <span>Flavor Resto.</span></div>
+</section>
+
+
+<!-- footer section ends -->
